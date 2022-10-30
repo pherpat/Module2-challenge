@@ -23,7 +23,7 @@ body {
 /*  links decoration - get rid of the undereline for links ---*/
 a {
     text-decoration: none;
-    cursor: pointer;
+    
 }
 
 /* paragraphs */

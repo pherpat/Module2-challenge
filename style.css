@@ -1,6 +1,6 @@
 /* -----General selectors---- */
 * {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', Sans-Serif;;
     color: black;   
     padding: 0px;   
     margin: 0px;
@@ -14,7 +14,7 @@
     --main-tx-align: left;
     --main-pad: 20px;
     --main-bg-size: cover;
-    
+    --main-fontsize: 20px;
 }
 body {
     background-color: #f6f6f6;
@@ -27,7 +27,7 @@ a {
 
 /* paragraphs */
 p {
-    font-size: 16px;
+    font-size: var(--main-fontsize);
     background-color: var(--main-bg-color);
     padding: 0px;
     padding-bottom: 10px;
@@ -68,7 +68,7 @@ h2 {
 /* ----nav list to the right side of page */
 .header nav {
     text-align: right;   
-    font-size: 20px;
+    font-size: var(--main-fontsize);
     float: right;
     padding-top: 8px;
 
@@ -135,8 +135,7 @@ article {
     background-color: var(--main-bg-color);
     margin-bottom: 20px;
     padding: var(--main-pad);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
+    font-family: 'Roboto', Sans-Serif;
      
 }
 /* -----My Work ----- */
@@ -229,7 +228,7 @@ article {
 #contactme ul {
     
     text-align: right;
-    font-size: 20px;
+    font-size: var(--main-fontsize);
     padding-top: 50px;
     display: flex;
     justify-content: space-evenly;
@@ -254,7 +253,7 @@ article {
 /* --- footer --- */
 footer h3 {
    
-    font-size: 16px;
+    font-size: var(--main-fontsize);
     text-align: center;
     padding: 25px;
     padding-bottom: 50px;

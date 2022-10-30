@@ -7,7 +7,14 @@
     line-height: 1.5;
    
 }
-
+/*  ----Variables---- */
+:root {
+    --main-bg-color: white;
+    --main-dp: block;
+    --main-tx-align: left;
+    
+    
+}
 body {
     background-color: #f6f6f6;
 }
@@ -19,9 +26,8 @@ a {
 
 /* paragraphs */
 p {
-    color: black;
     font-size: 16px;
-    background-color: white;
+    background-color: var(--main-bg-color);
     padding: 0px;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -32,7 +38,7 @@ h2 {
     font-size: 30px;
     padding: 10px;
     box-sizing: border-box;
-    text-align: left;
+    text-align: var(--main-tx-align);
     padding-top: 24px;
    
 }
@@ -41,14 +47,12 @@ h2 {
 .container {
     max-width: 1400px;
     margin: auto;
-    background-color: white;
+    background-color: var(--main-bg-color);
     padding: 40px;
 }
 
 /* --- header Name */
 .header {
-    /* background-color: white; */
-    color: black;
     padding: 20px;
     margin: 0;
     padding-left: 20px;
@@ -98,13 +102,13 @@ h2 {
 }
 /*  ---- Hero picture text--- */
 .heropic-label h2 {
-    display: block;
+    display: var(--main-dp);
     font-size: 50px;
     width: 60%;
     color: white;
     position: absolute;
     top: 200px;
-    text-align: left;
+    text-align: var(--main-tx-align);
     line-height: 60px;
     padding-left: 50px;
     
@@ -113,25 +117,25 @@ h2 {
 /* ---container for articles--- */
 
 .content {
-    display: block;
-    color: black;
+    display: var(--main-dp);
+   
     
 }
 
 /* -----content for sections----  */
 article {  
-    text-align: left;
+    text-align: var(--main-tx-align);
     display: grid;
     grid-template-columns: 25% 75%;
 }  
 
 
 .content article {
-    background-color: white;
+    background-color: var(--main-bg-color);
     margin-bottom: 20px;
-    padding:20px;
+    padding: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: black;
+   
      
 }
 /* -----My Work ----- */
@@ -184,7 +188,7 @@ article {
 .project-block-small {
     background-blend-mode: multiply;
     transition: all 0.5s ease;
-    background-color: white; 
+    background-color: var(--main-bg-color);
 }
 /* ----hover for small pictures--- */
 .project-block-small:hover {
@@ -230,9 +234,7 @@ article {
     justify-content: space-evenly;
     border: 1px;
 }
-.contactme h2 {
-    
-}
+
 /*  --- hover for contact me info --- */
 #contactme a:hover {
     color: rgb(155, 51, 253);
@@ -257,10 +259,10 @@ footer h3 {
     padding-bottom: 50px;
 }
 
-/* -----------Media Querie-------------- */
+/* -----------Media Query-------------- */
 @media screen and (max-width: 992px) {
     article {
-        text-align: left;
+        text-align: var(--main-tx-align);
         display: grid;
         grid-template-columns: 25% 75%;
     }
@@ -290,7 +292,7 @@ footer h3 {
     }
 
     article {
-        text-align: left;
+        text-align: var(--main-tx-align);
         display: grid;
         grid-template-columns: 100%;
     }

@@ -311,8 +311,20 @@ footer h3 {
     }
     .heropic-label h2 {
         display: block;
-        font-size: 40px;
-        top: 150px;
+        font-size: 47px;
+        top: 110px;
+        line-height: 45px;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .container {
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .container {
+        padding: 10px;
     }
 }
 

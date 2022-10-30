@@ -12,7 +12,8 @@
     --main-bg-color: white;
     --main-dp: block;
     --main-tx-align: left;
-    
+    --main-pad: 20px;
+    --main-bg-size: cover;
     
 }
 body {
@@ -53,7 +54,7 @@ h2 {
 
 /* --- header Name */
 .header {
-    padding: 20px;
+    padding: var(--main-pad);
     margin: 0;
     padding-left: 20px;
 }
@@ -89,7 +90,7 @@ h2 {
     height: 500px;
     width: 100%;
     margin-bottom: 25px;
-    background-size: cover;
+    background-size: var(--main-bg-size);
     background-image: url("./images/hero.jpg");
     background-blend-mode: multiply;
     background-color: rgb(202, 202, 202);
@@ -133,7 +134,7 @@ article {
 .content article {
     background-color: var(--main-bg-color);
     margin-bottom: 20px;
-    padding: 20px;
+    padding: var(--main-pad);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
      
@@ -178,7 +179,7 @@ article {
 /* ----labels for each project--- */
 .project-label {
     background-color: rgba(255, 255, 255, 0.8); 
-    padding: 20px;
+    padding: var(--main-pad);
     position: absolute;
     bottom: 20px;
     transition: all 0.5s ease;
@@ -197,30 +198,30 @@ article {
 }
 /*  ---url for project 1 ---- */
 .project1 {
-    background-size: cover;
+    background-size: var(--main-bg-size);
     background-image: url('./images/reading.jpg')   
    
 }
 /* ---url for project 2 ---- */
 .project2 {
-    background-size: cover;
+    background-size: var(--main-bg-size);
     background-image: url('./images/astrokids.jpg')
        
 }
 /*  ---- url for project 3 --- */
 .project3 {
-    background-size: cover;
+    background-size: var(--main-bg-size);
     background-image: url('./images/constellations.jpg')
 
 }
 /*  -----url for project 4 ---- */
 .project4 {
-    background-size: cover;
+    background-size: var(--main-bg-size);
     background-image: url('./images/universe.jpg')
 }
 /* ---- url for project 5 --- */
 .project5 {
-    background-size: cover;
+    background-size: var(--main-bg-size);
     background-image: url('./images/astro.jpg')
 }
 

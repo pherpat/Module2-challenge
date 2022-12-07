@@ -92,7 +92,7 @@ h2 {
     width: 100%;
     margin-bottom: 25px;
     background-size: var(--main-bg-size);
-    background-image: url("./images/hero.jpg");
+    background-image: url("/assets/images/hero.jpg");
     background-blend-mode: multiply;
     background-color: rgb(202, 202, 202);
     position: relative;
@@ -199,30 +199,30 @@ article {
 /*  ---url for project 1 ---- */
 .project1 {
     background-size: var(--main-bg-size);
-    background-image: url('./images/reading.jpg')   
+    background-image: url('/assets/images/astro.jpg')   
    
 }
 /* ---url for project 2 ---- */
 .project2 {
     background-size: var(--main-bg-size);
-    background-image: url('./images/astrokids.jpg')
+    background-image: url('/assets/images/astrokids.jpg')
        
 }
 /*  ---- url for project 3 --- */
 .project3 {
     background-size: var(--main-bg-size);
-    background-image: url('./images/constellations.jpg')
+    background-image: url('/assets/images/constellations.jpg')
 
 }
 /*  -----url for project 4 ---- */
 .project4 {
     background-size: var(--main-bg-size);
-    background-image: url('./images/universe.jpg')
+    background-image: url('/assets/images/reading.jpg')
 }
 /* ---- url for project 5 --- */
 .project5 {
     background-size: var(--main-bg-size);
-    background-image: url('./images/astro.jpg')
+    background-image: url('/assets/images/universe.jpg')
 }
 
 /*  ---- contact me information ---- */

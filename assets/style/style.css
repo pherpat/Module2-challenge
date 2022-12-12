@@ -92,7 +92,7 @@ h2 {
     width: 100%;
     margin-bottom: 25px;
     background-size: var(--main-bg-size);
-    background-image: url('/assets/images/hero.jpg');
+    background-image: url('../images/hero.jpg');
     background-blend-mode: multiply;
     background-color: rgb(202, 202, 202);
     position: relative;
@@ -200,30 +200,30 @@ article {
 /*  ---url for project 1 ---- */
 .project1 {
     background-size: var(--main-bg-size);
-    background-image: url('/assets/images/Project1-movies2watch.png')   
+    background-image: url('../images/Project1-movies2watch.png')   
    
 }
 /* ---url for project 2 ---- */
 .project2 {
     background-size: var(--main-bg-size);
-    background-image: url('/assets/images/Module4-challenge-Screenshot.png')
+    background-image: url('../images/Module4-challenge-Screenshot.png')
        
 }
 /*  ---- url for project 3 --- */
 .project3 {
     background-size: var(--main-bg-size);
-    background-image: url('/assets/images/Module3-challenge-screenshot.png')
+    background-image: url('../images/Module3-challenge-screenshot.png')
 
 }
 /*  -----url for project 4 ---- */
 .project4 {
     background-size: var(--main-bg-size);
-    background-image: url('/assets/images/Module6-challenge:weather:screenshot.png')
+    background-image: url('../images/Module6-challenge:weather:screenshot.png')
 }
 /* ---- url for project 5 --- */
 .project5 {
     background-size: var(--main-bg-size);
-    background-image: url('/assets/images/Module5-challenge:planner-screenshot.png')
+    background-image: url('../images/Module5-challenge:planner-screenshot.png')
 }
 
 /*  ---- contact me information ---- */

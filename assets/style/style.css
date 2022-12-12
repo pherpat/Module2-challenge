@@ -162,7 +162,7 @@ article {
 
 /* ----hover for big picture---- */
 .project-block-large:hover {
-    background-color: rgb(239, 194, 254);
+    background-color: rgb(225, 228, 255);
     
 }
 
@@ -194,13 +194,13 @@ article {
 }
 /* ----hover for small pictures--- */
 .project-block-small:hover {
-    background-color:  rgb(239, 194, 254);
+    background-color:  rgb(208, 212, 249);
 
 }
 /*  ---url for project 1 ---- */
 .project1 {
     background-size: var(--main-bg-size);
-    background-image: url('/assets/images/Project1\ -Screenshot.png')   
+    background-image: url('/assets/images/Project1-movies2watch.png')   
    
 }
 /* ---url for project 2 ---- */

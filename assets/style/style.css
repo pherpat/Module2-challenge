@@ -117,11 +117,8 @@ h2 {
 }
 
 /* ---container for articles--- */
-
 .content {
     display: var(--main-dp);
-   
-    
 }
 
 /* -----content for sections----  */
@@ -138,6 +135,20 @@ article {
     padding: var(--main-pad);
     font-family: 'Roboto', Sans-Serif;
      
+}
+
+#aboutmecontent {
+    display: flex;
+}
+
+#aboutmecontent div {
+    width: 30%;
+}
+
+#aboutmecontent p {
+    width: 70%;
+    box-sizing: border-box;
+    padding-left: 47px;
 }
 /* -----My Work ----- */
 #My-Work .project {
@@ -329,3 +340,14 @@ footer h3 {
     }
 }
 
+@media screen and (max-width: 411px) {
+    #aboutmecontent {
+        display: block;
+    }
+    #aboutmecontent div {
+        width: 100%;
+    }
+    #aboutmecontent p {
+        padding-left: 0px;
+        width: 100%;
+}

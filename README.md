@@ -1,4 +1,4 @@
-# Challenge : Advanced CSS Challenge: Professional Portfolio
+# My Professional Portfolio
 
 ## Purpose
 

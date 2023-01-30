@@ -7,8 +7,7 @@ The goal of this assignment was to create a portfolio that satisfies a typical h
 
 ## Screenshot
 
-You can view a screenshot of the webpage here: https://github.com/pherpat/Module2-challenge/blob/main/Module2-challenge.png
-
+You can view a screenshot of the webpage here: https://github.com/pherpat/Module2-challenge/blob/main/assets/images/Module2-challenge.png
 
 ## Deployed Site
 

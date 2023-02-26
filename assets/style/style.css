@@ -211,8 +211,8 @@ article {
 /*  ---url for project 1 ---- */
 .project1 {
     background-size: var(--main-bg-size);
-    background-image: url('../images/Project1-movies2watch.png')   
-   
+    background-image: url('../images/beer-n-bites-screenshot.jpeg')   
+    
 }
 /* ---url for project 2 ---- */
 .project2 {
@@ -223,7 +223,7 @@ article {
 /*  ---- url for project 3 --- */
 .project3 {
     background-size: var(--main-bg-size);
-    background-image: url('../images/Module3-challenge-screenshot.png')
+    background-image: url('../images/Project1-movies2watch.png')
 
 }
 /*  -----url for project 4 ---- */
